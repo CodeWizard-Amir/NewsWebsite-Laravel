@@ -1,0 +1,91 @@
+@import url(myfont.css);
+html,body{
+    direction: rtl;
+}
+.main_body{
+    margin: 30px;
+    width: 90%;
+    border-radius: 8px;
+    height: auto;
+    padding: 25px;
+    box-shadow: 2px 2px 10px gray;
+}
+.main_body>h2{
+    position: relative;
+    font-family: 'BRoya';
+    color: black;
+    padding: 5px 20px;
+    font-size: 26px;
+    margin: 30px;
+}
+.main_body>h2::before{
+    position: absolute;
+    content: " ";
+    left:  100%;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    transform: rotate(45deg);
+    background: rgb(147, 31, 255);
+    border: 1px solid rgb(63, 2, 75);
+    box-shadow: 1px 2px 8p rgb(255, 74, 234);
+}
+.user_form_search{
+    font-family: 'BRoya';
+    width: 100%;
+    margin: auto;
+    border-radius: 6px;
+}
+.user_form_search>input[type="text"]{
+    width: 60%;
+    padding: 5px 20px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 1px solid rgb(194, 0, 194);
+}
+.user_form_search>input[type="submit"]{
+    font-size: 18px;
+    font-weight: 700;
+}
+.users{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.each_user{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+   
+}
+.has_searched>ul{
+    margin: 20px;
+    box-shadow: 1px 1px 12px rgb(2, 238, 255) !important;
+}
+.alert{
+   font-size: 20px;
+   font-family: 'BRoya';
+   text-align: center; 
+}
+.each_user>ul{
+    font-family: 'BRoya';
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    transition-duration: 700ms;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 12px rgb(216, 216, 216);
+}
+.each_user>ul:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 12px rgb(161, 161, 161);
+}
+b{
+    color: black;
+}
+

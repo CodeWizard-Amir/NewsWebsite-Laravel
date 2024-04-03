@@ -1,0 +1,99 @@
+@import url(../../assets/css/myfont.css);
+html {
+    direction: rtl;
+    height: 100%;
+    font-family: 'BRoya' !important;
+    overflow-x: hidden;
+}
+
+.message{
+  font-family: 'BTraffic';
+  color: red;
+  font-size: 20px;
+  
+}
+.kol{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+h1{
+    font-family: 'BYekan';
+    font-size: 50px;
+    color: black;
+}
+.kol .form1 form{
+    font-family: 'BCompset';
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
+    margin-right: 10%;
+}
+.kol .form1 form input[type="text"],
+.kol .form1 form input[type="password"]{
+    font-family: 'BRoya' !important;
+    margin-top: 20px;
+    width: 40%;
+    height: auto;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    padding-right: 25px;
+    background: rgb(245, 245, 245);
+    border: none;
+    outline: none;
+    color: black;
+}
+.kol .form1 form input:focus{
+    border-bottom: 2px gray solid;
+}
+.kol .form1 form input[type="submit"]{
+    width: 20%;
+    height: 50px;
+    background: rgb(0, 214, 114);
+    border-radius: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: none;
+
+}
+.kol .form1 form input[type="submit"]:hover{
+    background: rgb(0, 162, 255);
+}
+.kol .text{
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    left: 0%;
+    background: linear-gradient(rgb(0, 78, 194),rgb(0, 167, 173));
+    border-bottom-right-radius: 100%;
+}
+.kol .text p{
+    font-family: 'BCompset';
+    margin-top: 30%;
+    color: white;
+    font-size: 30px;
+}
+.kol .text a{
+    font-family: 'BZiba';
+    font-size: 20px;
+    height: 50px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(177, 177, 177);
+    color: white;
+    transition-duration: 0.5s;
+}
+.kol .text a:hover{
+  background: rgb(0, 78, 194);
+  color: white;
+  margin-top: 5px;
+}
+.kol .form1 form input:placeholder-shown{
+    color: #aaa;
+    font-size: 25px;
+}

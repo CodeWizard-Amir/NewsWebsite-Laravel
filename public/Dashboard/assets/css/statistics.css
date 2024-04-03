@@ -1,0 +1,19 @@
+@import url(myfont.css);
+.mainbody{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.eachItem{
+    font-family: 'BRoya';
+    font-size: 20px;
+    padding: 20px;
+    max-width: fit-content  ;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 2px 2px 8px blueviolet;
+}
+.eachItem>span>b{
+    margin: 0 10px;
+    border-bottom: 1px solid red;
+}

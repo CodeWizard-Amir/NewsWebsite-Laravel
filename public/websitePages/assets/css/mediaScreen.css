@@ -1,0 +1,188 @@
+@media screen and (max-width: 1100px) {
+    nav>ul{
+        padding-right: 40px !important;
+    }
+    .dateToday{
+        font-size: 18px;
+    }
+    .main_body{
+        width: 98%;
+        padding: 10px;
+    }
+    .big_main_body{
+        width: 65%;
+    }
+    .big_main_body img{
+        width: 100%; 
+        max-height: 350px;
+    }
+    .small_main_body{
+        width: 34%;
+        padding: 0 10px;
+    }
+    .the_most_visited_slider>.swiper-wrapper>.swiper-slide{
+        width: 33%;
+        height: 260px;
+    }
+    footer{
+        height: 240px;
+    }
+    .footerLinks>h2{
+        padding: 5px 8px;
+        font-size: 18px;
+        margin: 10px 20px;
+    }
+    
+    .footerLinks>ul>li>a{
+        padding: 0 6px;
+        font-size: 14px;
+    }
+    .beUser{
+        padding: 10px;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs>input{
+        width: 100%;
+        margin: 2px 0;
+    }
+    .inputs>input[type="submit"]{
+        width: 100% !important;
+    }
+    .eachMedia{
+        margin: auto;
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .media>h2{
+        color: white;
+        font-size: 17px;
+    }
+    .eachMedia>span{
+        width: fit-content;
+        display: inline-block;
+        padding: 5px;
+    }
+    .eachMedia>span>a{
+        display: inline-block;
+        font-size: 18px;
+        color: gray;
+        font-weight: 800;
+    }
+    .copyright{
+        padding: 10px;
+    }
+}
+/* @media screen and (max-width: 1100px) */
+@media screen and (max-width: 700px) {
+    .top_header{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .logo{
+        margin: 5px auto;
+    }
+    .logo>img{
+        width: 80px !important;
+        height: 40px !important;
+    }
+    .dateToday{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto;
+        font-size: 14px !important;
+    }
+    .serchbox{
+        border-bottom: 2px solid rgb(0, 204, 255);
+        font-family: 'BRoya';
+        border-radius: 6px;
+        z-index: 99;
+        width: 99%;
+        height: auto;
+        margin: auto;
+    }
+    .main_body{
+        display: flex;
+        flex-direction: column;
+    }
+    .big_main_body{
+        width: 100%;
+    }
+    .big_main_body>h2{
+        font-size: 13px;
+    }
+    .big_main_body>p{
+        font-size: 13px;
+    }
+    .small_main_body{
+        width: 100%;
+    }
+    .the_most_visited{
+        width: 90%;
+        height: 250px;
+        margin: 10px auto;
+    }
+    .the_most_visited_slider>.swiper-wrapper>.swiper-slide{
+        width: 85%;
+        height: 180px;
+    }
+    .ulu{
+        display: none;
+    }
+    nav{
+        height: fit-content !important;
+        padding: 10px;
+        direction: ltr;
+        padding-left: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .clicktomenu{
+        display: inline !important;
+        float: left;
+    }
+    .dno{
+        display: none !important;
+    }
+    footer{
+        display: flex;
+        height: fit-content !important;
+        flex-direction: column;
+    }
+    .footerLinks{
+        width: 100%;
+        height: fit-content;
+        margin: 0 !important;
+    }
+    .beUser{
+        z-index: 99;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .media{
+        z-index: 99;
+        padding: 15px;
+        width: 100%;
+        height: 60%;
+    }
+    .eachMedia>span>a{
+        font-size: 30px;
+        color: gray;
+        font-weight: 800;
+    }
+    .copyright{
+        font-family: 'BRoya';
+        font-size: 14px;
+    }
+}

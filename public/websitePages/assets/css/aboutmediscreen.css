@@ -1,0 +1,19 @@
+@media screen and (max-width: 700px){
+    .main_about_us{
+        width: 98%;
+        padding: 15px;
+        margin: 10px auto !important;
+    }
+    .main_about_us>h2{
+        font-size: 18px;
+        padding: 5px;
+        margin: 5px;
+    }
+    .main_about_us>h2::before{
+        width: 50px;
+        background: rgb(0, 242, 255);
+        border:1px solid rgb(0, 14, 167);
+        box-shadow: 1px 2px 10px rgb(68, 252, 255);
+        border-radius: 8px;
+    }
+}

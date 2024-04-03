@@ -1,0 +1,30 @@
+@media screen and (max-width: 700px) {
+    .allNews{
+        padding: 0 !important;
+    }
+    .allNews>a{
+        width: 95%;
+        height: fit-content;
+    }
+    .eachNews>img{
+        border-radius: 10px;
+        width: 100%;
+        height: 40%;
+    }
+    .eachNews{
+        width: 100%;
+        padding: 0 !important;
+        margin: 10px;
+        height: 270px !important;
+        transition-duration: 500ms;
+        border-radius: 10px;
+        box-shadow: 2px 1px 8px rgb(193, 192, 192);
+    }
+    .eachNews>h2{
+        font-size: 15px;
+        margin: 0px 10px;
+    }
+    .eachNews>.summ{
+        font-size: 10px !important;
+    }
+}

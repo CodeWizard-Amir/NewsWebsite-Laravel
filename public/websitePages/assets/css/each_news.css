@@ -1,0 +1,288 @@
+@import url(myfont.css);
+html,body{
+    direction: rtl;
+}
+.each_news{
+    width: 100%;
+    height: auto;
+    padding: 20px   ;
+}
+.codeOfnews{
+    font-family: 'BRoya';
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(43, 43, 43);
+}
+.likes{
+    float: left;
+    width: fit-content;
+    display: flex;
+}
+.likethisnews{
+    width: 25%;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+}
+.likethisnews>i{
+    margin: auto 0;
+}
+.likethisnews>button{
+    font-family: 'BRoya';
+    font-weight: 800;
+    border: none;
+    background: transparent;
+    padding: 5px;
+    color: blue;
+}
+.likes>span{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+}
+.likes>span>i{
+    margin: auto;
+}
+.commentslinkto>a:hover{
+    color: blue;
+}
+.commentslinkto>a>i{
+    font-size: 30px;
+}
+.commentslinkto>a>b{
+    font-size: 12px;
+    color: black;
+}
+.heart{
+    color: red;
+}
+.eye{
+    color: rgb(2, 89, 76);
+}
+.likes>span>b{
+    margin: auto;
+    font-size: 9px;
+    color: black;   
+}
+.each_news>.headingnews{
+    position: relative;
+    padding: 15px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-family: 'BRoya';
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 10px;
+}
+.each_news>.headingnews::before{
+    position: absolute;
+    content: " ";
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    left: 100%;
+    top: 50%;
+    background: rgb(254, 47, 147);
+    border: 1px solid rgb(174, 0, 131);
+    box-shadow: 1px 1px 8px rgb(255, 39, 89);
+}
+.each_news>img{
+    width: 100%;
+    margin: 15px 0;
+    height: 400px;
+    border-radius: 8px;
+}
+.sumery{
+    font-family: 'BRoya';
+    color: black;
+    font-size: 22px;
+    width: 100% !important;
+    height: auto;
+    border: 2px solid rgb(167, 167, 167);
+    background: rgb(232, 232, 232);
+    padding: 5px;
+    margin: 0 !important;
+    border-radius: 6px;
+}
+.noh{
+    position: relative;
+}
+.noh::before{
+    position: absolute;
+    content: none !important;
+}
+.each_news>p{
+    font-family: 'BRoya';
+    color: black;
+    width: 98%;
+    margin: auto;
+    padding: 15px;
+    height: fit-content;
+    font-size: 19px;
+}
+/* End each news */
+.related_news{
+    margin: 12px 25px;
+    border-radius: 6px;
+    width: 70%;
+    padding: 10px;
+}
+.related_news>h2{
+    font-family: 'BRoya';
+    color: rgb(141, 0, 206);
+    font-size: 26px;
+    margin: 20px;
+}
+.r_n_links>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.r_n_links>ul>li{
+    margin: 5px 0;
+}
+.r_n_links>ul>li>a{
+    position: relative;
+    transition-duration: 500ms;
+    font-family: 'BRoya';
+    color: rgb(0, 61, 205);
+    font-size: 20px;
+    padding: 10px;
+}
+.r_n_links>ul>li>a:hover{
+    padding-right: 13px;
+    color: rgb(0, 132, 255);
+}
+.r_n_links>ul>li>a::before{
+    position: absolute;
+    content: " ";
+    width: 5px;
+    height: 5px;
+    transform: rotate(45deg);
+    left: 100%;
+    top: 46%;
+    background: rgb(0, 132, 255);
+    border: 1px solid rgb(1, 13, 141);
+    box-shadow: 1px 1px 7px rgb(118, 255, 228);
+}
+/*  */
+.comments{
+    box-shadow: 1px 1px 12px rgb(232, 232, 232);
+    width: 80%;
+    border-radius: 7px;
+    padding: 20px;
+    height: auto;
+}
+.comments>h2{
+     font-family: 'BRoya';
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    margin: 20px;
+    background: #000;
+    border-radius: 10% 5% / 10% 5%;
+    width: fit-content;
+}
+.comments>form{
+    font-family: 'BRoya';
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;  
+}
+.c_f_inputs{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+}
+.c_f_inputs>input{
+    width: 45%;
+    direction: rtl;
+    padding: 4px 20px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid purple;
+    outline: none;
+    margin-top: 5px;
+    font-size: 18px;
+}
+textarea{
+    outline: none;
+    width: 100%;
+    padding: 4px 20px;
+    background: rgb(254, 254, 254);
+    height: 170px;
+    margin-top: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid purple;
+}
+.comments>form>input[type="submit"]{
+    font-family: 'BRoya';
+    width: fit-content;
+    padding: 15px 30px;
+    margin: 20px 5px;
+    border-radius: 15% 1px / 15% 1px;
+    font-size: 20px;
+}
+/*  */
+.newsesComments{
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+    transition-duration: 1s;
+    border-radius: 5px;
+    height: 5px;
+    padding: 10px 5px;
+    
+}
+.newheight{
+    height: 500px !important;
+    box-shadow: 1px 2px 8px gray;
+}
+.backheight{
+    height: auto !important;
+    box-shadow: 1px 2px 8px gray;
+}
+.eachnewscomment{
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    border-bottom: 1px solid rgb(40, 0, 40);
+}
+.showcomments,
+.hidecomments{
+    font-family: 'BYekan';
+    width: 100%;
+    border: none;
+    display: flex;
+    padding: 20px;
+    background: red;
+    color: rgb(42, 0, 19);
+    font-size: 20px;
+    justify-content: right;
+    background: transparent;
+}
+.height0{
+    height: 0px !important;
+    box-shadow: none;
+}
+.showcomments>i,
+.hidecomments>i{
+    font-size: 22px;
+    margin: auto 10px;
+}
+.eachnewscomment>b{
+    font-family: 'BYekan';
+    font-size: 14px;
+    color: black;
+}
+.eachnewscomment>p{
+    font-size: 16px;
+}

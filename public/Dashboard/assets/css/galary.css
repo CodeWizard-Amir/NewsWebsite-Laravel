@@ -1,0 +1,19 @@
+.main_body{
+     width: 99%;
+     height: auto;
+     padding: 25px;
+     margin: 20px;
+     border-radius: 6px;
+     box-shadow: 1px 2px 8px gray;
+}
+.allpics{
+     display: flex;
+     width: 90%;
+     margin: 100px;
+     justify-content: space-between;
+}
+.allpics>img{
+     margin: 10px 0;
+     width: 15%;
+     height: 150px;
+}

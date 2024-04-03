@@ -1,0 +1,33 @@
+@import url(myfont.css);
+.divManager{
+    font-family: 'BKoodakBold';
+    width: 90%;
+    height: auto;
+    padding: 25px;
+}
+.divManager>form{
+    display: flex;
+    flex-direction: column;
+}
+.divManager>form>input{
+    margin: 5px 0;
+    outline: none;
+    padding: 5px 20px;
+}
+.my_admin{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+.my_admin>ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 150, 187);
+}
+.my_admin>ul>li{
+    padding: 5px;
+    font-size: 20px;
+    
+}

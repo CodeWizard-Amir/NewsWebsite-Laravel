@@ -1,0 +1,40 @@
+@import url(myfont.css);
+html ,body{
+    font-family: 'BRoya' !important;
+}
+h2{
+    font-size: 24px;
+    border-right: 2px solid blue;
+    padding: 10px 20px;
+    margin: 20px;
+}
+.ideas{
+    width: 100%;
+    padding: 15px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.eachidea{
+    width: 46%;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px gray;
+}
+.nameandnumber{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 100%;
+    padding: 20px;
+
+}
+.ok{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+}

@@ -1,0 +1,48 @@
+@import url(myfont.css);
+html,body{
+    direction: rtl;
+}
+.main_body{
+    margin: 30px;
+    width: 90%;
+    border-radius: 8px;
+    height: auto;
+    padding: 25px;
+    box-shadow: 2px 2px 10px gray;
+}
+.main_body>h2{
+    position: relative;
+    font-family: 'BRoya';
+    color: black;
+    padding: 5px 20px;
+    font-size: 26px;
+    margin: 30px;
+}
+.main_body>h2::before{
+    position: absolute;
+    content: " ";
+    left:  100%;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    transform: rotate(45deg);
+    background: rgb(147, 31, 255);
+    border: 1px solid rgb(63, 2, 75);
+    box-shadow: 1px 2px 8p rgb(255, 74, 234);
+}
+.about_text{
+    color: black;
+    font-family: 'BRoya';
+    font-size: 22px;
+    margin: auto;
+    margin: 30px;
+    width: 96%;
+    border-radius: 4px;
+    height: auto;
+    padding: 25px;
+    box-shadow: 2px 2px 10px rgb(209, 209, 209);
+}
+.ck-content{
+    direction: rtl;
+    height: 350px;
+}

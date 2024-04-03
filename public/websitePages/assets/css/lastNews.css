@@ -1,0 +1,59 @@
+@import url(myfont.css);
+html,body{
+    direction: rtl;
+}
+.allNews{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+}
+.allNews>a{
+    width: 95%;
+}
+.eachNews{
+    width: 100%;
+    padding: 0 !important;
+    margin: 10px;
+    height: 400px;
+    transition-duration: 500ms;
+    border-radius: 10px;
+    box-shadow: 2px 1px 8px rgb(193, 192, 192);
+}
+.eachNews:hover{
+    box-shadow: 2px 1px 20px rgb(51, 51, 51);
+}
+.eachNews>img{
+    border-radius: 10px;
+    width: 100%;
+    height: 60%;
+}
+.eachNews>h2{
+    font-family: 'BRoya';
+    color: rgb(0, 0, 120);
+    font-size: 20px;
+    margin: 0px 25px;
+}
+.eachNews>.summ{
+    overflow: hidden;
+    font-family: 'BYekan';
+    width: 96%;
+    height: auto;
+    font-size: 15px !important;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+
+.actions{
+    display: flex;
+    width: 20%;
+    float: left;
+    justify-content: space-evenly;
+}
+.actions>span{
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 100%;
+}
